@@ -1,0 +1,32 @@
+name: donortrust
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  mailer: ^6.0.1
+  cloud_firestore: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/trust.jpg
+
+flutter_icons:
+  image_path: "assets/trust.jpg"
+  android: true
+  ios: true
+  web: true
